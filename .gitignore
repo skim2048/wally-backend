@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+.pkl_memoize_py3/
+
+# Node
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build artifacts
+*.tsbuildinfo
+.eslintcache
+*.timestamp-*-*.mjs
+
+# Test artifacts
+.pytest_cache/
+cypress/videos/
+cypress/screenshots/
+__screenshots__/
+
+# Runtime
+data/
+config/cam_profile.json
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Etc.
+tmp/
+.env
+.codex
+.claude
